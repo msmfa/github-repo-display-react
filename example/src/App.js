@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react"
 
-import { ExampleComponent } from 'github-repo-display-react'
-import 'github-repo-display-react/dist/index.css'
+import { GithubRepoDisplay } from "github-repo-display-react"
+import "github-repo-display-react/dist/index.css"
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div className='repos'>
+      <GithubRepoDisplay userName='msmfa' />
+    </div>
+  )
 }
 
 export default App
