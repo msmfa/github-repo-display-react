@@ -20,12 +20,12 @@ import "github-repo-display-react/dist/index.css" // default github styling
 
 const App = () => {
   return (
-    <div className='repos'>
+    <>
       <GithubRepoDisplay
         numOfrepos={5} // must be included
         userName='msmfa' // must be included
       />
-    </div>
+    </>
   )
 }
 
