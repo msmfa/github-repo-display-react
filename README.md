@@ -55,15 +55,15 @@ const App = () => {
 
 ## Screenshot
 
-Below are the default styles (which mirror the github feed)
+### Below are the default styles (which mirror the github feed)
 
 ![image](https://user-images.githubusercontent.com/59375712/81843745-f2fa6680-9545-11ea-9770-89548cb0cc6b.png)
 
 ## Styling
 
-![image](https://user-images.githubusercontent.com/59375712/81844351-da3e8080-9546-11ea-8dd1-a22c57625257.png)
+### Use these id Tags to customise your component
 
-Use the above id Tags to customise your component
+![image](https://user-images.githubusercontent.com/59375712/81844351-da3e8080-9546-11ea-8dd1-a22c57625257.png)
 
 ## License
 
