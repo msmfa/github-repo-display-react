@@ -39,6 +39,7 @@ export function DisplaySortedRepoData({
               ) : null}
               {showLanguage ? repo.language : null}
               <li>
+                updated{" "}
                 {convertToHours(
                   getRemainingSeconds(new Date(repo.updated_at), Date.now())
                 )}
