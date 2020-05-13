@@ -31,13 +31,15 @@ export function DisplaySortedRepoData({
                   Github
                 </a>
               </li>
-              {showStars ? (
-                <li>
-                  <img src={Star} alt='star' className={styles.star} />
-                  {repo.stargazers_count}
-                </li>
-              ) : null}
-              {showLanguage ? repo.language : null}
+              <div className={styles.options}>
+                {showLanguage ? <li>{repo.language}</li> : null}
+                {showStars ? (
+                  <li>
+                    <img src={Star} alt='star' className={styles.star} />
+                    {repo.stargazers_count}
+                  </li>
+                ) : null}
+              </div>
               <li>
                 updated{" "}
                 {convertToHours(

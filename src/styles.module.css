@@ -1,11 +1,10 @@
 /* add css module styles here (optional) */
 
 .test {
+  font-size: 1em;
+  list-style-type: none;
   margin: 2em;
   padding: 0.5em;
-  border: 2px solid #000;
-  list-style-type: none;
-  font-size: 1em;
 }
 
 .repoContainer ul {
@@ -15,4 +14,11 @@
 .star {
   height: 0.75em;
   padding-right: 0.2em;
+}
+
+.options {
+  display: flex;
+}
+.options > li:first-child {
+  padding-right: 1em;
 }

@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='repos'>
       <GithubRepoDisplay
-        numOfrepos={5}
+        numOfrepos={3}
         userName='msmfa'
         showStars={true}
         showLanguage={true}
