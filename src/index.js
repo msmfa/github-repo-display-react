@@ -9,21 +9,21 @@ const fetchApiData = async (username) => {
   return response.data
 }
 
-function GetRepoData({ userName }) {
+function GetRepoData({ userName, numOfrepos }) {
   const [repoData, setRepoData] = useState([])
 
   useEffect(() => {
     fetchApiData(userName).then(setRepoData)
   }, [userName])
 
-  return <DisplaySortedRepoData numOfrepos={3} repoData={repoData} />
+  return <DisplaySortedRepoData numOfrepos={numOfrepos} repoData={repoData} />
 }
 
-export const GithubRepoDisplay = ({ userName }) => {
+export const GithubRepoDisplay = ({ userName, numOfrepos }) => {
   return (
     <div className={styles.test}>
       {" "}
-      <GetRepoData userName={userName} />
+      <GetRepoData numOfrepos={numOfrepos} userName={userName} />
     </div>
   )
 }
