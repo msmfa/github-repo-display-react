@@ -1,5 +1,9 @@
 /* add css module styles here (optional) */
 
+.title {
+  color: green;
+}
+
 .test {
   font-size: 1em;
   list-style-type: none;
