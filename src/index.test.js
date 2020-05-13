@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { GithubRepoDisplay } from "."
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+describe("GithubRepoDisplay", () => {
+  it("is truthy", () => {
+    expect(GithubRepoDisplay).toBeTruthy()
   })
 })
