@@ -1,5 +1,8 @@
-/* add css module styles here (optional) */
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .repoContainer ul {
   list-style-type: none;
 }
@@ -41,4 +44,5 @@
 .textUpdated {
   color: rgb(121, 121, 121);
   font-size: 0.8em;
+  margin-bottom: 2em;
 }

@@ -15,14 +15,23 @@ npm install --save github-repo-display-react
 ```jsx
 import React, { Component } from "react"
 
-import MyComponent from "github-repo-display-react"
+import { GithubRepoDisplay } from "github-repo-display-react"
 import "github-repo-display-react/dist/index.css"
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <div className='repos'>
+      <GithubRepoDisplay
+        numOfrepos={5} // must be included
+        userName='msmfa' // must be included
+        showStars={true}
+        showLanguage={true}
+      />
+    </div>
+  )
 }
+
+export default App
 ```
 
 ## License
