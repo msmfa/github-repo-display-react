@@ -13,10 +13,10 @@ npm install --save github-repo-display-react
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import MyComponent from 'github-repo-display-react'
-import 'github-repo-display-react/dist/index.css'
+import MyComponent from "github-repo-display-react"
+import "github-repo-display-react/dist/index.css"
 
 class Example extends Component {
   render() {
@@ -28,3 +28,7 @@ class Example extends Component {
 ## License
 
 MIT © [msmfa](https://github.com/msmfa)
+
+## Functionality
+
+[X] Set the number of Repos you want to show

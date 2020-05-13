@@ -11,3 +11,8 @@
 .repoContainer ul {
   list-style-type: none;
 }
+
+.star {
+  height: 0.75em;
+  padding-right: 0.2em;
+}

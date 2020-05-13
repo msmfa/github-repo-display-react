@@ -5,11 +5,11 @@ import { convertToHours } from "../helper/convertToHours"
 import { arrayToLength } from "../helper/arrayToLength"
 import { getRemainingSeconds } from "../helper/getRemainingSeconds"
 import styles from "../styles.module.css"
+import Star from "../helper/IMG/githubStar.png"
 
-export function DisplaySortedRepoData({ repoData, numOfrepos }) {
+export function DisplaySortedRepoData({ repoData, numOfrepos, showStars }) {
   const sortedRepos = sortByMostRecentDate(repoData)
   const sortedAndReducedRepos = arrayToLength(sortedRepos, numOfrepos)
-
   return (
     <div className={styles.repoContainer}>
       {sortedAndReducedRepos
@@ -26,6 +26,12 @@ export function DisplaySortedRepoData({ repoData, numOfrepos }) {
                   Github
                 </a>
               </li>
+              {showStars ? (
+                <li>
+                  <img src={Star} alt='star' className={styles.star} />
+                  {repo.stargazers_count}
+                </li>
+              ) : null}
               <li>
                 {convertToHours(
                   getRemainingSeconds(new Date(repo.updated_at), Date.now())
