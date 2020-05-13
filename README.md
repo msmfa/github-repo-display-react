@@ -32,12 +32,35 @@ const App = () => {
 export default App
 ```
 
-## License
+## Configuration
 
-MIT © [msmfa](https://github.com/msmfa)
+```jsx
+...
+
+const App = () => {
+  return (
+    <div>
+      <GithubRepoDisplay
+        numOfrepos={5}
+        userName='msmfa'
+        showStars={true} // displays stars
+        showLanguage ={true} // displays language
+      />
+    </div>
+  )
+}
+
+...
+```
 
 ## Functionality
 
 [X] Set the number of Repos you want to show
+
 [X] Show Stars
+
 [X] Show Langauge
+
+## License
+
+MIT © [MSMFA](https://github.com/msmfa)
