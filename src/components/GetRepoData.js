@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import { DisplaySortedRepoData } from "./DisplaySortedRepoData"
-import { fetchApiData } from "../index"
+import { fetchApiData } from "../helper/fetchApiData"
 export function GetRepoData({ userName, numOfrepos }) {
   const [repoData, setRepoData] = useState([])
   useEffect(() => {
