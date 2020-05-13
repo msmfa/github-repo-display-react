@@ -16,7 +16,7 @@ npm install --save github-repo-display-react
 import React, { Component } from "react"
 
 import { GithubRepoDisplay } from "github-repo-display-react"
-import "github-repo-display-react/dist/index.css"
+import "github-repo-display-react/dist/index.css" // default github styling
 
 const App = () => {
   return (
@@ -24,8 +24,6 @@ const App = () => {
       <GithubRepoDisplay
         numOfrepos={5} // must be included
         userName='msmfa' // must be included
-        showStars={true}
-        showLanguage={true}
       />
     </div>
   )
