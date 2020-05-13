@@ -55,7 +55,7 @@ const App = () => {
 
 ## Screenshot
 
-![](UTILS/react-comp-github-ss)
+![image](https://user-images.githubusercontent.com/59375712/81843588-b3337f00-9545-11ea-85ca-e8a03b969ea4.png)
 
 ## License
 
