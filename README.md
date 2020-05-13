@@ -53,13 +53,9 @@ const App = () => {
 ...
 ```
 
-## Functionality
+## Screenshot
 
-[X] Set the number of Repos you want to show
-
-[X] Show Stars
-
-[X] Show Langauge
+![](src/helper/IMG/react-comp-github-ss)
 
 ## License
 
