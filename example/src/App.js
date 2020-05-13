@@ -6,7 +6,12 @@ import "github-repo-display-react/dist/index.css"
 const App = () => {
   return (
     <div className='repos'>
-      <GithubRepoDisplay numOfrepos={5} userName='msmfa' showStars={true} />
+      <GithubRepoDisplay
+        numOfrepos={5}
+        userName='msmfa'
+        showStars={true}
+        showLanguage={true}
+      />
     </div>
   )
 }

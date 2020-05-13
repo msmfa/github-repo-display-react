@@ -7,7 +7,12 @@ import { getRemainingSeconds } from "../helper/getRemainingSeconds"
 import styles from "../styles.module.css"
 import Star from "../helper/IMG/githubStar.png"
 
-export function DisplaySortedRepoData({ repoData, numOfrepos, showStars }) {
+export function DisplaySortedRepoData({
+  repoData,
+  numOfrepos,
+  showStars,
+  showLanguage
+}) {
   const sortedRepos = sortByMostRecentDate(repoData)
   const sortedAndReducedRepos = arrayToLength(sortedRepos, numOfrepos)
   return (
@@ -32,6 +37,7 @@ export function DisplaySortedRepoData({ repoData, numOfrepos, showStars }) {
                   {repo.stargazers_count}
                 </li>
               ) : null}
+              {showLanguage ? repo.language : null}
               <li>
                 {convertToHours(
                   getRemainingSeconds(new Date(repo.updated_at), Date.now())

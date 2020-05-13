@@ -32,3 +32,6 @@ MIT © [msmfa](https://github.com/msmfa)
 ## Functionality
 
 [X] Set the number of Repos you want to show
+[X] Show Stars
+[ ] Show Langauge
+[ ]
