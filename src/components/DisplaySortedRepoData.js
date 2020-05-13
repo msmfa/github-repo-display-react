@@ -4,13 +4,14 @@ import { sortByMostRecentDate } from "../helper/sortByMostRecentDate"
 import { convertToHours } from "../helper/convertToHours"
 import { arrayToLength } from "../helper/arrayToLength"
 import { getRemainingSeconds } from "../helper/getRemainingSeconds"
+import styles from "../styles.module.css"
 
 export function DisplaySortedRepoData({ repoData, numOfrepos }) {
   const sortedRepos = sortByMostRecentDate(repoData)
   const sortedAndReducedRepos = arrayToLength(sortedRepos, numOfrepos)
 
   return (
-    <div>
+    <div className={styles.repoContainer}>
       {sortedAndReducedRepos
         ? sortedAndReducedRepos.map((repo) => (
             <ul key={repo.id}>
