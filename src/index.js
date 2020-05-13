@@ -9,7 +9,7 @@ export const GithubRepoDisplay = ({
   showLanguage
 }) => {
   return (
-    <div className={styles.test}>
+    <div className={styles.container}>
       {" "}
       <GetRepoData
         showStars={showStars}

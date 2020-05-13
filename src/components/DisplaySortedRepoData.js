@@ -36,7 +36,9 @@ export function DisplaySortedRepoData({
               </li>
               <div id='options' className={styles.options}>
                 {showLanguage ? (
-                  <li className='language'>{repo.language}</li>
+                  <li id='language' className={styles.languages}>
+                    {repo.language}
+                  </li>
                 ) : null}
                 {showStars ? (
                   <li>
