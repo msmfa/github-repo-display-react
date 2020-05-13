@@ -55,7 +55,7 @@ const App = () => {
 
 ## Screenshot
 
-![](src/helper/IMG/react-comp-github-ss)
+![](UTILS/react-comp-github-ss)
 
 ## License
 
