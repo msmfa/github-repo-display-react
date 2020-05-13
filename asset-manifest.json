@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github-repo-display-react/static/css/main.1e1dc1d3.chunk.css",
+    "main.js": "/github-repo-display-react/static/js/main.52929c74.chunk.js",
+    "main.js.map": "/github-repo-display-react/static/js/main.52929c74.chunk.js.map",
+    "runtime-main.js": "/github-repo-display-react/static/js/runtime-main.8d84956b.js",
+    "runtime-main.js.map": "/github-repo-display-react/static/js/runtime-main.8d84956b.js.map",
+    "static/js/2.d3fffae6.chunk.js": "/github-repo-display-react/static/js/2.d3fffae6.chunk.js",
+    "static/js/2.d3fffae6.chunk.js.map": "/github-repo-display-react/static/js/2.d3fffae6.chunk.js.map",
+    "index.html": "/github-repo-display-react/index.html",
+    "precache-manifest.eeb95a617e6efef926254d8e06a7259c.js": "/github-repo-display-react/precache-manifest.eeb95a617e6efef926254d8e06a7259c.js",
+    "service-worker.js": "/github-repo-display-react/service-worker.js",
+    "static/css/main.1e1dc1d3.chunk.css.map": "/github-repo-display-react/static/css/main.1e1dc1d3.chunk.css.map",
+    "static/js/2.d3fffae6.chunk.js.LICENSE.txt": "/github-repo-display-react/static/js/2.d3fffae6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d84956b.js",
+    "static/js/2.d3fffae6.chunk.js",
+    "static/css/main.1e1dc1d3.chunk.css",
+    "static/js/main.52929c74.chunk.js"
+  ]
+}
