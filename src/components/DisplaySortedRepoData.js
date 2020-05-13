@@ -20,10 +20,11 @@ export function DisplaySortedRepoData({
       {sortedAndReducedRepos
         ? sortedAndReducedRepos.map((repo) => (
             <ul key={repo.id}>
-              <li>{removeDash(repo.name)}</li>
-              <li>{repo.description}</li>
+              <li className='title'>{removeDash(repo.name)}</li>
+              <li className='description'>{repo.description}</li>
               <li>
                 <a
+                  className='github-link'
                   href={repo.html_url}
                   target='_blank'
                   rel='noopener noreferrer'
@@ -32,7 +33,9 @@ export function DisplaySortedRepoData({
                 </a>
               </li>
               <div className={styles.options}>
-                {showLanguage ? <li>{repo.language}</li> : null}
+                {showLanguage ? (
+                  <li className='language'>{repo.language}</li>
+                ) : null}
                 {showStars ? (
                   <li>
                     <img src={Star} alt='star' className={styles.star} />
@@ -40,7 +43,7 @@ export function DisplaySortedRepoData({
                   </li>
                 ) : null}
               </div>
-              <li>
+              <li className={styles.textUpdated}>
                 updated{" "}
                 {convertToHours(
                   getRemainingSeconds(new Date(repo.updated_at), Date.now())

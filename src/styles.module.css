@@ -22,3 +22,8 @@
 .options > li:first-child {
   padding-right: 1em;
 }
+
+.textUpdated {
+  color: rgb(88, 88, 88);
+  font-size: 0.8em;
+}
