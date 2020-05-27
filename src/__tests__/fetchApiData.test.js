@@ -20,6 +20,6 @@ describe("fetchData from the API", () => {
       Promise.reject(new Error(errorMessage))
     )
 
-    await expect(fetchApiData("usernamea")).rejects.toThrow(errorMessage)
+    await expect(fetchApiData("username")).rejects.toThrow(errorMessage)
   })
 })
